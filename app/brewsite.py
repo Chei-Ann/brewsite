@@ -16,11 +16,9 @@ def home():
 def breweries():
     return rt("breweries.html", content = data)
 
-
 @app.route("/beer_types")
 def beer_types():
     return rt("beer_types.html", user = "James Smith")
-
 
 @app.route("/about")
 def about():
